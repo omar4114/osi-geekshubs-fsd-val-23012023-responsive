@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: green;
+    height: 10vh;
+}
+
+#main {
+    background-color: yellow;
+    height: 60vh;
+    display: flex;
+}
+
+#footer {
+    background-color: orange;
+    height: 30vh;
+}
+
+#izq {
+    background-color: violet;
+    width: 20vw;
+}
+
+#der {
+    background-color: blue;
+    width: 80vw;
+}
+
+@media(max-width:360px){
+    #izq {
+        display: none;
+    }
+    #der {
+        width: 100%;
+    }
+}
